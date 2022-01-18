@@ -14,14 +14,11 @@ print(min)
 
 number_of_msgs = 0
 
-cute_messages = ["Love you so much Kitty",
+cute_messages = ["Love you so much",
                  "Hope you have a great day", 
-                 "You are a little sleeping miawer",
-                 "miaw miaw <3",
-                 "where is little kitty?",
                  "I am thinking of you all morning",
-                 "love you <3 <3",
-                 "I miss our huggies"]
+                 "love you <3",
+                 "I miss you"]
 
 min +=1
 pywhatkit.sendwhatmsg("+15085308226","Good morning my love <3",hour,min)
