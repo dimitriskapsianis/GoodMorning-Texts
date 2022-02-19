@@ -21,7 +21,7 @@ cute_messages = ["Love you so much",
                  "I miss you"]
 
 min +=1
-pywhatkit.sendwhatmsg("+15085308226","Good morning my love <3",hour,min)
+pywhatkit.sendwhatmsg("+1508530****","Good morning my love <3",hour,min)
 
 
 while number_of_msgs <3:
@@ -34,7 +34,7 @@ while number_of_msgs <3:
 
     message = random.choice(cute_messages)
     cute_messages.remove(message)
-    pywhatkit.sendwhatmsg("+15085308226",message,hour,min)
+    pywhatkit.sendwhatmsg("+1508530****",message,hour,min)
 
     number_of_msgs +=1
 
